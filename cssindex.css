@@ -1,0 +1,111 @@
+               /* div no. 1 */
+html{
+    display: inline-block;
+}               
+.f1{
+    height:100vh;
+    /* width:100%; */
+    width: auto;
+    background-image: linear-gradient(to bottom,rgba(3, 215, 234, 0.523),rgba(130, 216, 130, 0.77));
+}
+.f1:hover{
+    background-image:linear-gradient(to bottom,rgba(76, 232, 167, 0.618),rgba(225, 238, 122, 0.77)) ;
+}
+a{
+    margin: 15px;
+    padding: 0px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    font-size: 30px;
+
+}
+#b1,#b2{
+    display: inline-block;
+    height: 0px;
+}
+#gki{
+    position: absolute;
+    left: 500px;
+    border-radius: 1900px;
+    padding: 10px;
+    transition: all 1s;
+    animation: scaleImage 3s linear infinite;
+}
+@keyframes scaleImage{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1.1);
+        box-shadow: black;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+h1{
+    position:absolute;
+    top: 65vh;
+    left: 33vw;
+    color: rgb(98, 7, 246);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline; 
+    
+}
+h4{
+    position: absolute;
+    left: 38vw;
+    bottom: 15vh;
+    font-style: oblique;
+    font-size: 1.6vw;
+    color: rgba(0, 140, 255, 0.644);
+    display: inline;
+}
+
+         /* div no. 2 */
+
+#web{
+    position: absolute;
+    left: 24vw;
+    bottom: -19vh;
+}
+#b1 img{
+    margin: -7vw;
+    padding: 10vw;
+    display: inline-block;
+}
+#b2 img{
+    position: absolute;
+    left: 70vw;
+    bottom: -87vh;
+}
+#b1 header,#b2 header{
+    font-size: 2.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#b1 header:hover,#b2 header:hover{
+    color: blueviolet;
+}
+#b1 p{
+    position: absolute;
+    left: 24vw;
+    bottom: -31vh;
+    font-size: 1.4vw;
+}
+#b2 header{
+    position: absolute;
+    left: 57vw;
+    bottom: -61vh;
+    display: inline;
+}
+
+#b2 p{
+    text-align: right;
+    position: absolute;
+    left: 15vw;
+    bottom: -73vh;
+    font-size: 1.4vw;
+}
+
