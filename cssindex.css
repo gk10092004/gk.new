@@ -1,4 +1,9 @@
                /* div no. 1 */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 html{
     display: inline-block;
 }               
